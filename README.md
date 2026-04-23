@@ -1,10 +1,33 @@
-# Nuxt Minimal Starter
+# 🚀 Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Project ini adalah aplikasi berbasis **Nuxt 3 + Tailwind CSS** yang telah dideploy ke Vercel.
 
-## Setup
+🌐 **Live Demo:**
+https://cmlabs-frontend-fulltime-test-sandy.vercel.app/
 
-Make sure to install dependencies:
+---
+
+## 📦 Tech Stack
+
+* Nuxt 3
+* Tailwind CSS
+* Pinia
+* Vercel (Deployment)
+
+---
+
+## ⚙️ Setup Project
+
+Pastikan kamu sudah menginstall:
+
+* Node.js (disarankan v18+)
+* Package manager (npm / pnpm / yarn / bun)
+
+---
+
+## 📥 Install Dependencies
+
+Jalankan salah satu perintah berikut:
 
 ```bash
 # npm
@@ -20,9 +43,11 @@ yarn install
 bun install
 ```
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## 💻 Menjalankan di Local
+
+Untuk menjalankan project di local:
 
 ```bash
 # npm
@@ -38,9 +63,17 @@ yarn dev
 bun run dev
 ```
 
-## Production
+Buka di browser:
 
-Build the application for production:
+```
+http://localhost:3000
+```
+
+---
+
+## 🏗️ Build Production
+
+Untuk build project:
 
 ```bash
 # npm
@@ -56,7 +89,11 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+---
+
+## 👀 Preview Production
+
+Untuk melihat hasil build secara lokal:
 
 ```bash
 # npm
@@ -71,5 +108,15 @@ yarn preview
 # bun
 bun run preview
 ```
+## 📚 Dokumentasi
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* https://nuxt.com/docs
+* https://tailwindcss.com/docs
+
+---
+
+## ✨ Author
+
+Project ini dibuat untuk keperluan technical test frontend.
+
+---
