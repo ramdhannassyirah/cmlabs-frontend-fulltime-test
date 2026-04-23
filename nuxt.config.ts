@@ -15,16 +15,11 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   modules: ["@nuxt/image", "@nuxt/icon", "@nuxt/fonts", "@pinia/nuxt"],
-  tailwindcss: {
-    // Options
-  },
   components: [
     {
       path: "~/components",
       pathPrefix: false,
     },
   ],
-  nitro: {
-    preset: "vercel",
-  },
+ 
 });
