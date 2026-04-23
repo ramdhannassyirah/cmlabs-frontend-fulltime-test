@@ -1,9 +1,6 @@
 # 🚀 Nuxt Minimal Starter
 
-Project ini adalah aplikasi berbasis **Nuxt 3 + Tailwind CSS** yang telah dideploy ke Vercel.
-
-🌐 **Live Demo:**
-https://cmlabs-frontend-fulltime-test-sandy.vercel.app/
+Project ini adalah aplikasi berbasis **Nuxt 3 + Tailwind CSS**
 
 ---
 
@@ -12,7 +9,6 @@ https://cmlabs-frontend-fulltime-test-sandy.vercel.app/
 * Nuxt 3
 * Tailwind CSS
 * Pinia
-* Vercel (Deployment)
 
 ---
 
