@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     }
   },
   modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/fonts", "@pinia/nuxt"],
+  tailwindcss: {
+    // Options
+  },
   components: [
     {
       path: "~/components",
