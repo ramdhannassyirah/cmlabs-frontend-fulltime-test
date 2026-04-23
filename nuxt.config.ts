@@ -1,13 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-   runtimeConfig: {
+  runtimeConfig: {
     public: {
-      apiBase: process.env.API_BASE_URL || "https://www.themealdb.com/api/json/v1/1/"
-    }
+      apiBase:
+        process.env.API_BASE_URL || "https://www.themealdb.com/api/json/v1/1/",
+    },
   },
-  modules: ["@nuxt/image", "@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/fonts", "@pinia/nuxt"],
+  css: ["~/assets/css/main.css"],
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  modules: ["@nuxt/image", "@nuxt/icon", "@nuxt/fonts", "@pinia/nuxt"],
   tailwindcss: {
     // Options
   },
@@ -18,6 +25,6 @@ export default defineNuxtConfig({
     },
   ],
   nitro: {
-    preset: 'vercel'
-  }
+    preset: "vercel",
+  },
 });
